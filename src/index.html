@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M México | Moda online,Home y ropa de niños | H&M MX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/H&M-Logo.svg.png">
+</head>
+<body>
+    <header>
+        <div class="letrasIzq">
+            <p>Atencion al Cliente</p>
+            <p>Fashion News</p>
+            <p>Encontrar una Tienda</p>
+            <p>°°°</p>
+        </div>
+        <div class="logo">
+            <img class="logoImg" src="./assets/H&M-Logo.svg.png" width="13.5%" height="10%">
+        </div>
+        <div class="contenedor-letrasDer">
+            <div class="letrasDer">
+                <div class="nav-img">
+                    <div class="switch-button">
+                        <!-- Checkbox -->
+                        <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                        <!-- Botón -->
+                        <label for="switch-label" class="switch-button__label"></label>
+                    </div>
+                </div>
+                <div class="nav-img">
+                    <img src="./assets/delantero.png">
+                    <p id="idModal">iniciar Sesion</p>
+                </div>
+                <div class="nav-img">
+                    <img src="./assets/me-gusta.png">
+                    <p>Favoritos</p>
+                </div>
+                <div class="nav-img">
+                    <img src="./assets/bolso.png">
+                    <p>Shopping bag(0)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navbar">
+        <li><a href="#">Mujer</a></li>
+        <li><a href="#">Hombre</a></li>
+        <li><a href="#">Divided</a></li>
+        <li><a href="#">Bebé</a></li>
+        <li><a href="#">Niños</a></li>
+        <li><a href="#">H&M HOME</a></li>
+        <li><a href="#">Beauty</a></li>
+        <li><a href="#">Sport</a></li>
+        <li><a href="#">Sustentabilidad</a></li>
+        <li><a href="#">Rebajas</a></li>
+
+        <div class="contenedor-buscar">
+            <div class="buscar">
+                <img src="./assets/buscar.png">
+                <input type="text" placeholder="Buscar productos" required>
+            </div>
+        </div>
+
+        </ul>
+    </nav>
+
+    <div class="container-cuerpo">
+        <div class="cuerpo">
+            <div class="letras">
+                <p>Compras seguras, devoluciones gratis</p>
+                <p>¡10% de descuento en una compra al hacerte miembro!</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-cuerpo">
+        <div class="cuerpo">
+            <div class="contenedor-img1">
+                <div class="texto-imagen" style="margin-top: 15px;">
+                    <p style="font-size: 1.5rem">
+                        Una nueva temporada te espera
+                    </p>
+                    
+                </div>
+                <div class="texto-imagen">
+                    <p>
+                        Nuevas prendas para todos
+                    </p>
+                </div>
+                <div class="botones-img">
+                    <button class="bot">Mujer</button>
+                    <button class="bot">Hombre</button>
+                    <button class="bot">Bebé</button>
+                    <button class="bot">Niños</button>
+                    <button class="bot">Sport</button>
+                    <button class="bot">H&M HOME</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-cuerpo">
+        <div class="cuerpo">
+            <div class="container-img2">
+                <div class="contenedor-grupo">
+                    <div class="texto-imagen">
+                        <p style="font-size: 2.5rem;">
+                                Corte clásico: pierna recta
+                        </p>
+                    </div>
+                    <div class="texto-imagen">
+                        <p>
+                            Una renovación de la mezquilla esencial atemporal.
+                        </p>
+                    </div>
+                </div>
+                <div class="botones-img">
+                    <button class="bot">Comprar ahora</button>
+                    <button class="bot">Inspírate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel">
+
+        <p>Categorias populares</p>
+
+        <div class="carrusel-list" id="carrusel-list">
+
+            <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+
+            <div class="carrusel-track" id="track">
+
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa1.png" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa2.png" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa3.png" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa4.png" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa5.png" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa6.webp" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="carrusel">
+
+                    <div>
+
+                        <a href="#">
+                            
+                            <picture>
+                                <img src="./assets/ropa7.webp" alt="imagen">
+                            </picture>
+                            <h4> <small>Imagen</small> Mas </h4>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+            <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+
+
+        </div>
+
+    </div>
+    <div class="container-cuerpo" style="margin-bottom: 2vw;">
+        <div class="cuerpo">
+            <div class="container-img3">
+                <div class="contenedor-grupo" style="margin-top: 27vw;">
+                    <div class="texto-imagen" >
+                        <p style="font-size: 2.5rem;">
+                                    Este Halloween, voy a ser...
+                        </p>
+                    </div>
+                    <div class="texto-imagen">
+                        <p>
+                            Disfraces espeluznantes
+                        </p>
+                    </div>
+                </div>
+                <div class="botones-img">
+                    <button class="bot">Comprar ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-cuerpo" style="margin-bottom: 2vw;">
+        <div class="cuerpo">
+            <div class="container-img5">
+                <div class="contenedor-grupo" style="margin-top: 27vw;">
+                    <div class="texto-imagen" >
+                        <p style="font-size: 2.5rem;">
+                                    Elegante y atractivo
+                        </p>
+                    </div>
+                    <div class="texto-imagen">
+                        <p>
+                            Una mesa minimalista con un presupuesto minimalista.
+                        </p>
+                    </div>
+                </div>
+                <div class="botones-img">
+                    <button class="bot">Comprar ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-cuerpo" style="margin-bottom: 2vw;">
+        <div class="cuerpo">
+            <div class="container-img4">
+                <div class="contenedor-grupo">
+                    <div class="texto-imagen" >
+                        <p style="font-size: 2.5rem;">
+                                    Próximamente:
+                        </p>
+                    </div>
+                    <div class="texto-imagen" style="margin-top: -35px;">
+                        <p style="font-size: 2.5rem;">
+                                    Eva Chen x H&M
+                        </p>
+                    </div>
+                    <div class="texto-imagen">
+                        <p style="font-size: 1rem;">
+                            En hm.com y en tiendas seleccionadas el 7 de septiembre
+                        </p>
+                    </div>
+                </div>
+                <div class="botones-img">
+                    <button class="bot" id="id">Aprender más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor-caja-cards">
+        <div class="caja-cards">
+            <div class="conjunto-textos1">
+                <div class="texto-imagen">
+                    <p style="font-size: 2.5rem;margin-top: 30px;">MAGAZINE</p>
+                </div>
+                <div class="texto-imagen" style="margin-top: -23px;">
+                    <p style="font-weight: 10;">A WORLD OF INSPIRATION</p>
+                </div>
+                <div class="texto-imagen">
+                    <p><a href="#">READ H&M MAGAZINE</a></p>
+                </div>
+            </div>
+            <div class="conjunto-cards">
+                <div class="card">
+                    <img src="./assets/modelo1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="separar">
+                        <p class="card-title">INSIDE H&M</p>
+                        <p class="card-text"><strong>Disney100 x H&M</strong></p>
+                      </div>
+                      <div class="bajar">
+                        <p><a href="#">Read The Story -></a></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img src="./assets/modelo2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="separar">
+                            <p class="card-title">INSIDE H&M</p>
+                            <p class="card-text"><strong>Dos miembros de H&M en Coachella.</strong></p>
+                        </div>
+                      <div class="bajar">
+                        <p><a href="#">Read The Story -></a></p>
+                      </div>
+                    </div>
+                </div>    
+                <div class="card" >
+                    <img src="./assets/modelo3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="separar">
+                            <p class="card-title">INSIDE H&M</p>
+                            <p class="card-text"><strong>DESPRENDE ALEGRIA ESTE VERANO CON LAKWENA X H&M</strong></p>
+                        </div>
+                      <div class="bajar">
+                        <p><a href="#">Read The Story -></a></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="container" style="height: 600px;width: 600px;">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/modelo1.jpg" class="d-block w-100" alt="..." id="img1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/modelo2.jpg" class="d-block w-100" alt="..." id="img2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/modelo3.jpg" class="d-block w-100" alt="..." id="img3">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/modelo3.jpg" class="d-block w-100" alt="..." id="img4">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/modelo3.jpg" class="d-block w-100" alt="..." id="img5">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/modelo3.jpg" class="d-block w-100" alt="..." id="img6">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="cojuntop" style="margin-top: 4vw;">
+                <p><strong>COLECCIONES</strong></p>
+                <P><strong>INFORMACIÓN CORPORATIVA</strong></P>
+                <P><strong>AYUDA</strong></P>
+                <P><strong>CONVIÉRTETE EN MIENBRO</strong></P>
+            </div>
+            
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">Mujer</a></p>
+                <P><a href="#">Trabajar en H&M</a></P>
+                <P><a href="#">Atencion al cliente</a></P>
+                <P style="font-size: 0.8rem;">Unete ahora y recibe un 10% de descuento en tu proxima compra!</P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop" style="margin-top: -9px;">
+                <p><a href="#">Divided</a></p>
+                <P><a href="#">Acerca del grupo H&M</a></P>
+                <P><a href="#">Mi cuenta</a></P>
+                <br>
+                <P style="font-size: 0.9rem;"><a href="#">CONOCE MÁS -></a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer" style="margin-top: -9px;">
+            <div class="cojuntop">
+                <p><a href="#">Hombre</a></p>
+                <P><a href="#">Sostenibilidad en el Grupo H&M</a></P>
+                <P><a href="#">Nuestra tiendas</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">Bebé</a></p>
+                <P><a href="#">Prensa</a></P>
+                <P><a href="#">Terminos y Condiciones</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">Niños</a></p>
+                <P><a href="#">Relaciones invercionistas</a></P>
+                <P><a href="#">Contacto</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">H&M HOME</a></p>
+                <P><a href="#">Politica empresarial</a></P>
+                <P><a href="#">Tarjeta de regalo</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">Beauty</a></p>
+                <P class="quitar">.</P>
+                <P><a href="#">Denunciar una estafa</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p><a href="#">Sport</a></p>
+                <P class="quitar">.</P>
+                <P><a href="#">Aviso de cookies</a></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="cojuntop">
+                <p class="quitar">.</p>
+                <P class="quitar">.</P>
+                <P><strong><a href="#">Cookie Settings</a></strong></P>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="conjunto-img">
+                <img class="footer-img" src="./assets/facebook.png">
+                <img class="footer-img" src="./assets/gorjeo.png">
+                <img class="footer-img" src="./assets/instagram.png">
+                <img class="footer-img" src="./assets/youtube.png">
+                <img class="footer-img" src="./assets/logotipo-de-pinterest.png">
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="conjunto-img" style="margin-top: 2vw;">
+                <p>El contenido de este sitio está protegido por copyright y es propiedad de H&M Hennes & Mauritz AB.</p>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="conjunto-img">
+                <img src="./assets/logoh&m.webp" width="70vw" height="70vw">
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="conjunto-img">
+                <p style="font-size: 0.7rem;margin-left: 18px;"><strong>México | $</strong></p>
+            </div>
+        </div>
+        <div class="contenedor-footer">
+            <div class="conjunto-img">
+                <p class="quitar">.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modalInicio">
+        <div class="modalSesion__container">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Ingrese se Correo</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Ingrese su Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text">No comparta su password con nadie.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar</button>
+              </form>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/api2.js"></script>
+    <script src="./js/api3.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
